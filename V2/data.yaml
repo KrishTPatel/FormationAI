@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['0', 'player']
+
+roboflow:
+  workspace: krish-patel-n65ms
+  project: my-first-project-obayf
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/krish-patel-n65ms/my-first-project-obayf/dataset/3
